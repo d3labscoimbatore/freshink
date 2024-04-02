@@ -1,6 +1,6 @@
 "use client";
 
-import logo from "../../../public/logo.jpg";
+import logo from "../../../public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { IoMenu, IoClose } from "react-icons/io5";

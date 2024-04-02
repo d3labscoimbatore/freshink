@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../../public/logo.jpg";
+import logo from "../../../public/logo.png";
 import "../footer/footer.css";
 import { RiFacebookFill } from "react-icons/ri";
 import { RiTwitterXFill } from "react-icons/ri";
@@ -16,7 +16,6 @@ const Footer = ({ footerSection }) => {
   const addressSecond = address.address.substring(54, 100);
   const addressThird = address.address.substring(56, 73);
   const contact = contactDetails.contact;
-  console.log(addressFirst);
 
   return (
     <>
