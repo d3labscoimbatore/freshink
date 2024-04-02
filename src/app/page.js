@@ -11,7 +11,7 @@ import ChooseUs from "@/components/chooseUs/ChooseUs";
 export default async function Home() {
   // API data for the HTML element
   const response = await fetch(
-    "https://api.npoint.io/b2cf233529d2c70bcb8c"
+    "https://api.npoint.io/341301005fee10e9e42f"
   );
   const HTMLData = await response.json();
 

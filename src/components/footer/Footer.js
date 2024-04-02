@@ -49,12 +49,12 @@ const Footer = ({ footerSection }) => {
               <div className="contactDetails">
                 <div className="phone">
                   <p>{contact.phone.title}</p>
-                  <Link href="tel:7871878878">+91 {contact.phone.number}</Link>
+                  <Link href="tel:9363640046">+91 {contact.phone.number}</Link>
                 </div>
                 <div className="email">
                   <p>{contact.email.title}</p>
                   <Link
-                    href="mailto:phantomfirmco@gmail.com"
+                    href="mailto:sales@freshink.studio"
                     className="contactLinks"
                   >
                     {contact.email.mailID}
