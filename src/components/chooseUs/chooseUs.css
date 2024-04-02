@@ -1,0 +1,57 @@
+.chooseUsTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0 4rem 0;
+}
+
+.chooseUsTitleDesc {
+  font-weight: 400;
+}
+
+.chooseUsCard {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 2rem;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.chooseUsCardIcon > img {
+  max-width: 2.8rem;
+  height: auto;
+}
+
+/* For Tablet */
+
+@media only screen and (min-width: 600px) and (max-width: 820px) {
+  .chooseUsTitle {
+    text-align: center;
+    margin: 2rem 0 4.5rem 0;
+  }
+
+}
+
+/* For Mobile */
+
+@media only screen and (max-width: 600px) {
+  .chooseUsTitle {
+    margin: 2rem 0 2rem 0;
+  }
+
+}
+
+/* For Fold */
+
+@media only screen and (max-width: 320px) {
+  .chooseUsCard{
+    padding-right: 0;
+  }
+
+  .chooseUsTitle {
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+  }
+}

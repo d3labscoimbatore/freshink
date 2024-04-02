@@ -1,0 +1,38 @@
+.chooseUsCardContainer {
+  display: flex;
+  width: 40rem;
+  height: auto;
+  padding: 5rem 0;
+  border-top: 1px solid var(--stroke);
+}
+
+.chooseUsCardIcon {
+  margin-top: 0.4rem;
+}
+
+.chooseUsCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 2rem;
+}
+
+.chooseUsCardContainer p {
+  font-weight: 400;
+}
+
+/* For Tablet Device */
+
+@media only screen and (max-width: 820px) {
+  .chooseUsCardContainer {
+    width: 100%;
+  }
+}
+
+/* For Fold Device */
+
+@media only screen and (max-width: 320px) {
+  .chooseUsCardContent {
+    padding-left: 1rem;
+  }
+}
