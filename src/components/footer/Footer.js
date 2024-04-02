@@ -12,7 +12,7 @@ const Footer = ({ footerSection }) => {
   const { contactDetails, copyright, policies } = footerSection;
 
   const address = contactDetails.address;
-  const addressFirst = address.address.substring(0, 54);
+  const addressFirst = address.address.substring(0, 73);
   const addressSecond = address.address.substring(54, 100);
   const addressThird = address.address.substring(56, 73);
   const contact = contactDetails.contact;
@@ -40,7 +40,7 @@ const Footer = ({ footerSection }) => {
                 </Link>
               </div>
               <p>
-                {addressFirst} <br /> {addressSecond}
+                {addressFirst} <br />
                 <br /> 
               </p>
             </div>

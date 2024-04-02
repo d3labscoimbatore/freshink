@@ -9,43 +9,43 @@ export const ServiceData = [
   {
     id: 1,
     icon: <IoMegaphoneOutline />,
-    title: "Influencer Marketing",
+    title: "Branding & Identity",
     description:
-      "Amplify your brand's reach with our Influencer Marketing services. We forge strategic partnerships with influencers to authentically connect your brand with your target audience, driving engagement and awareness.",
+      "A strategic process to help your brand establish a platform-agnostic identity and presence.Crafting stunning, visually consistent sets of icon styles and illustrations, in line with all relevant brand guidelines.",
   },
   {
     id: 2,
     icon: <BsBox />,
-    title: "Content Production & 3D",
+    title: "Packaging & Design",
     description:
-      "Elevate your brand with captivating content and cutting-edge 3D visuals. Our creative team specializes in producing compelling multimedia content and immersive 3D experiences that leave a lasting impression.",
+      "Revitalize your brand's image with our expert packaging design services. From concept to completion, we craft innovative and visually stunning packaging solutions that captivate your audience.",
   },
   {
     id: 3,
     icon: <IoFlagOutline />,
-    title: "Branding & Graphics",
+    title: "UI / UX",
     description:
-      "Make a memorable impact with our Branding & Graphics services. We craft distinctive brand identities, logos, and graphics that communicate your unique story, fostering brand recognition and loyalty.",
+      "Unlock digital potential with our UI design. Craft intuitive interfaces, enhancing engagement to elevate your brand's online presence and user satisfaction. Expert solutions await.",
   },
   {
     id: 4,
     icon: <FaChromecast />,
-    title: "Social Media Marketing",
+    title: "Web Development",
     description:
-      "Harness the power of social media with our comprehensive services. From strategic setup to daily management and engaging content creation, we optimize your social media presence to build a strong online community.",
+      "Empower your online presence with our web development services. From concept to launch, we create dynamic, responsive websites tailored to your brand's needs and goals.",
   },
   {
     id: 5,
     icon: <IoGiftOutline />,
-    title: "Packaging & Design",
+    title: "Digital Marketing",
     description:
-      "Transform your product into a visual masterpiece with our Packaging & Design expertise. We create eye-catching packaging designs that not only protect your product but also make it stand out on the shelves.",
+      "Boost your brand's reach and ROI with our digital marketing services. We tailor strategies for optimal engagement, driving growth and success in the digital landscape.",
   },
   {
     id: 6,
     icon: <IoPeopleOutline />,
-    title: "PR Services",
+    title: "Consulting",
     description:
-      "Our PR services go beyond traditional boundaries. We strategically position your brand in the spotlight, creating narratives that resonate with your audience and leave a lasting positive impression.",
+      "Comprehensive consulting services for your digital needs. We analyze, strategize, and optimize across web development, digital marketing, UI design, and more for impactful results.",
   },
 ];
