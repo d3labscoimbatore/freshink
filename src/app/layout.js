@@ -8,7 +8,7 @@ const lato = Lato({
 });
 
 export const metadata = {
-  title: "Phantom Firm",
+  title: "Freshink Studio",
   description: "We bring your brand closer to the People.",
   icons: {
     icon: ["/favicon.ico?v=4"],
