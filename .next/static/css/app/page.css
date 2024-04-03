@@ -594,7 +594,8 @@
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  width: 22rem;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .addressTitle > a {

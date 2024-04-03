@@ -12,9 +12,6 @@ const Footer = ({ footerSection }) => {
   const { contactDetails, copyright, policies } = footerSection;
 
   const address = contactDetails.address;
-  const addressFirst = address.address.substring(0, 73);
-  const addressSecond = address.address.substring(54, 100);
-  const addressThird = address.address.substring(56, 73);
   const contact = contactDetails.contact;
 
   return (
@@ -39,10 +36,7 @@ const Footer = ({ footerSection }) => {
                   </div>
                 </Link>
               </div>
-              <p>
-                {addressFirst} <br />
-                <br /> 
-              </p>
+              <div dangerouslySetInnerHTML={{ __html: address.address }} />
             </div>
             <div className="Footercontact">
               <h3 className="contactTitle"> {contact.title}</h3>
